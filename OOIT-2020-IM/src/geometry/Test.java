@@ -10,7 +10,7 @@ public class Test {
 		
 		System.out.println("X koordinata tacke p1 je: " + p1.getX());
 		System.out.println("Y koordinata tacke p1 je: " + p1.getY());
-		System.out.println("Selected je postavljeno na: " + p1.getSelected());
+		System.out.println("Selected je postavljeno na: " + p1.isSelected());
 		
 		Point p2 = new Point();
 		p2.setX(13);
