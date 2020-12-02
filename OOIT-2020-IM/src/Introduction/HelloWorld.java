@@ -131,5 +131,37 @@ public class HelloWorld {
 			}
 			System.out.println(l);
 		}
+		
+		System.out.println(snippet(3));
 	}
+	
+	public static int snippet(int param) {
+
+	     int a = 2, b = 4, result = 1;
+
+	     int i = 0;
+
+	     do {
+
+	           result = a * b + result;
+
+	           if (result >= 10 && result < 100) {
+
+	                 result = result / 10; 
+
+	           }
+
+	           a = a * a;
+
+	           b--;
+
+	           i++;
+
+	     } while(i < param);
+
+	     return result;
+
+	}
+
+
 }
